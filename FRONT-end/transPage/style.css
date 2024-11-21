@@ -1,0 +1,16 @@
+.pageTransition{
+animation-name: pageTransition;
+animation-duration: 0.5s;
+animation-fill-mode: forwards;
+
+}
+
+
+@keyframes pageTransition{
+    from{
+        background-color: blueviolet;
+    }
+    to{
+        background-color: aquamarine;
+    }
+}
